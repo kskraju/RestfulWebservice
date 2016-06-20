@@ -1,3 +1,27 @@
+REST API
+
+Your service should consist of two RESTful resources:
+Products
+
+which should implement two methods:
+
+    list product catalog
+    read a single product by its id
+
+Orders
+
+which should implement four methods:
+
+    place an order
+    modify an existing order
+    list placed orders
+    read an existing order by its id
+
+Your service should use JSON as its representation format for objects
+
+You will need to create an appropriate relational schema to persist your entities, along with any required mappings.
+
+------------------------------------------------------------------------------------------------------------------------
 http://localhost:8080/CatalogManagement/rest/ProductService/product/addProduct
 
 
